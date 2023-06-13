@@ -12,6 +12,8 @@
 		23ED59A62A38F90600A10BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ED59A52A38F90600A10BF4 /* Assets.xcassets */; };
 		23ED59A92A38F90600A10BF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ED59A82A38F90600A10BF4 /* Preview Assets.xcassets */; };
 		23ED59B32A38FA4400A10BF4 /* SatisRakamlari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED59B22A38FA4400A10BF4 /* SatisRakamlari.swift */; };
+		23ED59B62A39044200A10BF4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED59B52A39044200A10BF4 /* Home.swift */; };
+		23ED59B82A3904A100A10BF4 /* GraphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ED59B72A3904A100A10BF4 /* GraphType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		23ED59A52A38F90600A10BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23ED59A82A38F90600A10BF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23ED59B22A38FA4400A10BF4 /* SatisRakamlari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatisRakamlari.swift; sourceTree = "<group>"; };
+		23ED59B52A39044200A10BF4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		23ED59B72A3904A100A10BF4 /* GraphType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		23ED59A02A38F90300A10BF4 /* grafikler */ = {
 			isa = PBXGroup;
 			children = (
+				23ED59B42A3901CA00A10BF4 /* View */,
 				23ED59AF2A38F9BA00A10BF4 /* Model */,
 				23ED59A12A38F90300A10BF4 /* grafiklerApp.swift */,
 				23ED59A32A38F90300A10BF4 /* ContentView.swift */,
@@ -74,8 +79,17 @@
 			isa = PBXGroup;
 			children = (
 				23ED59B22A38FA4400A10BF4 /* SatisRakamlari.swift */,
+				23ED59B72A3904A100A10BF4 /* GraphType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		23ED59B42A3901CA00A10BF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23ED59B52A39044200A10BF4 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +164,8 @@
 			files = (
 				23ED59A42A38F90300A10BF4 /* ContentView.swift in Sources */,
 				23ED59B32A38FA4400A10BF4 /* SatisRakamlari.swift in Sources */,
+				23ED59B82A3904A100A10BF4 /* GraphType.swift in Sources */,
+				23ED59B62A39044200A10BF4 /* Home.swift in Sources */,
 				23ED59A22A38F90300A10BF4 /* grafiklerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
